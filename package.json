@@ -1,0 +1,35 @@
+{
+  "name": "baseball-fantasy-comparator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "homepage": "",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "bootstrap": "^3.3.7",
+    "d3": "^3.5.17",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-uglifycss": "^1.0.6",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
+    "normalize.css": "^5.0.0",
+    "tether": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Felix Averlant",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  }
+}

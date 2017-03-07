@@ -1,0 +1,124 @@
+@font-face {
+    font-family: k_s_regular;
+    src: url(../fonts/Kayak_Sans_Regular.otf);
+}
+
+@font-face {
+    font-family: k_s_bold;
+    src: url(../fonts/Kayak_Sans_Bold.otf);
+}
+
+@font-face {
+    font-family: k_s_light;
+    src: url(../fonts/Kayak_Sans_Light.otf);
+}
+
+
+h1{
+  font: 10px k_s_bold;
+}
+
+h2 {
+  font: 25px k_s_light;
+}
+
+
+.container{
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+
+  .jumbotron{
+    border-radius: 0;
+  }
+};
+
+.jumbotron{
+  background: #B2FEFA;
+  background: -webkit-linear-gradient(to left, #B2FEFA , #0ED2F7);
+  background: linear-gradient(to left, #B2FEFA , #0ED2F7);
+
+  h1, h2{
+    color: white;
+    text-align: center;
+    font: 30px;
+  }
+}
+
+
+.teams{
+  display: none;
+}
+
+.position-selection-button, .position-selection{
+  cursor: pointer;
+}
+
+.btn-group-justified{
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.desc-project-1, .desc-project-2{
+  height: 200px;
+  p{
+    color:white;
+    font-family: k_s_light;
+  }
+}
+
+.container .main-container .col-md-12{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#example{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#grid{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container .main-container .col-md-12 .empty-graph{
+  background: #B2FEFA;
+  background: -webkit-linear-gradient(to left, #B2FEFA , #0ED2F7);
+  background: linear-gradient(to left, #B2FEFA , #0ED2F7);
+
+  height:300px;
+
+  img, p{
+      margin: auto;
+      display:block;
+      text-align: center;
+  }
+
+  img{
+    padding-top:70px;
+    padding-bottom:20px;
+  }
+
+  p{
+    font: 35px k_s_light ;
+    color: white;
+  }
+}
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
